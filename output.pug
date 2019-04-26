@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title Password generator
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Fira+Mono")
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.8.1/css/all.css", integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf", crossorigin="anonymous")
+        link(rel="stylesheet", href="style.css")
+    body
+        table
+            tr
+                td Plain password:
+                td =$plainPassword
+            tr
+                td MD5 encoded password:
+                td =$md5Password
+            tr
+                td SHA1 encoded password:
+                td =$sha1Password
+            tr
+                td bcrypt encoded password:
+                td =$bcryptPassword
+            tr
+                td PBKDF2 encoded password:
+                td =$pbkdf2Password
+        hr
+        p
+            i.fas.fa-info-circle
+            | &nbsp;Customize with the GET parameters below
+        ul
+            li
+                | length: default is&nbsp;
+                =$defaults['length']
+            li
+                | cost: between 4 and 31, default is&nbsp;
+                =$defaults['cost']
+                | &nbsp;- used for bcrypt

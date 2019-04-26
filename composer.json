@@ -1,0 +1,24 @@
+{
+    "name": "subbysnake/password-generator",
+    "description": "Password generator",
+    "type": "utility",
+    "license": "MIT",
+    "homepage": "http://shadesoft.hu",
+    "authors": [
+        {
+            "name": "Szabolcs Surányi",
+            "email": "szabolcs.suranyi@shadesoft.hu"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.8",
+        "pug-php/pug": "^3.2",
+        "symfony/security-core": "^4.2"
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.8"
+        },
+        "sort-packages": true
+    }
+}

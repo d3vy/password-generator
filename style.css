@@ -1,0 +1,29 @@
+body {
+    background: #111;
+    color: #2ecc40;
+    font: 14px/1em 'Fira Mono', monospace;
+    margin: 0;
+    padding: 1rem;
+}
+
+li {
+    line-height: 1.14rem;
+}
+
+td {
+    border-bottom: 1px dashed #2ecc40;
+    border-right: 1px dashed #2ecc40;
+    padding: 1rem;
+}
+
+tr:last-child > td {
+    border-bottom: none;
+}
+
+tr > td:last-child {
+    border-right: none;
+}
+
+hr {
+    border-color: #2ecc40;
+}
