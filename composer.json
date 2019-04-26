@@ -3,11 +3,12 @@
     "description": "Password generator",
     "type": "utility",
     "license": "MIT",
-    "homepage": "http://shadesoft.hu",
+    "homepage": "https://github.com/subbysnake/Password-Generator",
     "authors": [
         {
             "name": "Szabolcs Surányi",
-            "email": "szabolcs.suranyi@shadesoft.hu"
+            "email": "szabolcs.suranyi@shadesoft.hu",
+            "homepage": "http://shadesoft.hu"
         }
     ],
     "require": {

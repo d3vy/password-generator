@@ -24,14 +24,19 @@ html
                 td PBKDF2 encoded:
                 td =$pbkdf2Password
         hr
-        p
-            i.fas.fa-info-circle
-            | &nbsp;Customize with the GET parameters below
-        ul
-            li
-                | length: default is&nbsp;
-                =$defaults['length']
-            li
-                | cost: between 4 and 31, default is&nbsp;
-                =$defaults['cost']
-                | &nbsp;- used for bcrypt
+        div.flex
+            div
+                p
+                    i.fas.fa-info-circle
+                    | &nbsp;Customize with the GET parameters below
+                ul
+                    li
+                        | length: default is&nbsp;
+                        =$defaults['length']
+                    li
+                        | cost: between 4 and 31, default is&nbsp;
+                        =$defaults['cost']
+                        | &nbsp;- used for bcrypt
+            p.grow.right
+                a(href="https://github.com/subbysnake/Password-Generator" target="_blank")
+                    i.fab.fa-github.fa-2x
