@@ -2,7 +2,7 @@
     "name": "d3vy/password-generator",
     "description": "Password generator",
     "type": "utility",
-    "license": "MIT",
+    "license": "WTFPL",
     "homepage": "https://github.com/d3vy/Password-Generator",
     "authors": [
         {
