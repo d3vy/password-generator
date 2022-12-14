@@ -33,7 +33,7 @@ html
         div.flex
             div
                 p
-                    i.fas.fa-info-circle
+                    i.fas.fa-info.fa-fw
                     | &nbsp;Customize with the GET parameters below
                 ul
                     li
@@ -43,6 +43,9 @@ html
                         | cost: between 4 and 31, default is&nbsp;
                         =$defaults['cost']
                         | &nbsp;- used for bcrypt
+                p
+                    i.fas.fa-exclamation.fa-fw
+                    | &nbsp;Never use MD5 or SHA1 encoded passwords on production
             p.grow.right
-                a(href="https://github.com/sbolch/Password-Generator" target="_blank")
+                a(href="https://github.com/sbolch/password-generator" target="_blank")
                     i.fab.fa-github.fa-2x
