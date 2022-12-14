@@ -1,14 +1,14 @@
 {
-    "name": "d3vy/password-generator",
+    "name": "sbolch/password-generator",
     "description": "Password generator",
     "type": "utility",
     "license": "WTFPL",
-    "homepage": "https://github.com/d3vy/password-generator",
+    "homepage": "https://github.com/sbolch/password-generator",
     "authors": [
         {
             "name": "Szabolcs Surányi",
             "email": "szabolcs.suranyi@shadesoft.hu",
-            "homepage": "http://shadesoft.hu"
+            "homepage": "https://shadesoft.dev"
         }
     ],
     "require": {
